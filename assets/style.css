@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(148, 189, 255, 0.5)), url("./images/bannerLogo.jpg");
+
+  /* Set a specific height */
+  height: 75%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.aboutHeader,
+.bookingHeader,
+.contactHeader {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.outsideImg {
+  padding: 10px;
+  max-height: 500px !important;
+}
+
+.about,
+.booking {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.contactHeader {
+  padding-bottom: 20px;
+}
+
+.cardTextCss {
+  text-align: center;
+  font-size: 16pt;
+}
+
+.contact {
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #444444;
+  text-align: center;
+  color: #eeeeee;
+  padding: 10px;
+}
+
+.nav-link {
+  font-weight: bold !important;
+}
+
+.about-text {
+  font-size: 16pt;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .booking {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .aboutHeader,
+  .bookingHeader,
+  .contactHeader {
+    padding-top: 200px;
+  }
+
+  .navbar {
+    padding-top: 30px;
+  }
+}
