@@ -43,6 +43,7 @@ html {
 .outsideImg {
   padding: 10px;
   max-height: 500px !important;
+  margin-bottom: .5em;
 }
 
 .about,
@@ -79,6 +80,12 @@ footer {
 
 .about-text {
   font-size: 16pt;
+  line-height: 1.6;
+}
+
+.dogImg {
+  border-radius: 50%;
+  max-height: 250px;
 }
 
 @media screen and (max-width: 768px) {
