@@ -1,8 +1,5 @@
 $(document).ready(function () {
-
-  // smooth scroll, https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
   $(".nav-link").on('click', function (event) {
-
     if (this.hash !== "") {
       event.preventDefault();
 
